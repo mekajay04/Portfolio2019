@@ -19,7 +19,7 @@
 
 
  <!-- MY stylesheet -->
-
+    
  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
   <!-- MATERIALIZE -->
@@ -128,6 +128,7 @@
 </div>
 
  <!--======== contact =========-->
+ <form action="https://formspree.io/meka.jay@live.com" method="POST">
  <section id="contact" class="contact">
     <div class="container">
         <div class="row">
@@ -142,13 +143,13 @@
                     <div class="col-md-12">
                         <div class="form-group">
                             <label class="sr-only" for="exampleInputEmail3">Your Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Your Name">
+                            <input type="text" class="form-control" id="exampleInputEmail3" name="name" placeholder="Your Name">
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
                             <label class="sr-only" for="exampleInputEmail3">Your Email</label>
-                            <input type="Email" class="form-control" id="exampleInputEmail3" placeholder="Your Email">
+                            <input type="Email" class="form-control" id="exampleInputEmail3" name="_replyto" placeholder="Your Email">
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -175,10 +176,11 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="form-group text-center">
-                            <button type="submit" class="btn btn-default ">Send Massage</button>
+                            <button type="submit" class="btn btn-default " value="Send">Send Massage</button>
                         </div>
                     </div>
                 </div>
+            </form>
                 <ul class="list-inline social-links text-center">
                     <li><a href="https://www.linkedin.com/in/jameka-jones-/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/mekajay04" target="_blank"><i class="fa fa-github"></i></a></li>
