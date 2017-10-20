@@ -4,12 +4,14 @@ body {
     color: rgba(245, 246, 247, 0.66);
 }
 p {
-    font-size: 13.5px;}
-.margin {margin-top: 45px;}
+    font-size: 13.5px;
+}
+.margin {margin-top: 45px;
+}
 .bg-1 { 
-  background: url("photos/studyspace.jpg");
+  background: url("photos/bkg6.PNG");
    background-repeat: no-repeat;
-   min-height: 650px; 
+   min-height: 700px; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -24,25 +26,25 @@ p {
     color: #ffffff;
     /* min-height: 100px;  */
 }
-.aboutme { 
+.aboutme {
     color: black;
    margin-top: 60px;
    padding:10px;
 }
 .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-    /* background-attachment: fixed; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+background-color: #ffffff; /* White */
+color: #555555;
+/* background-attachment: fixed; */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .bg-4 { 
 /* background-color: #DCEEF3; Black Gray */
 background-attachment: fixed;
- color: #141313;
- min-height: 70px;
- margin:25px;
+color: #141313;
+min-height: 70px;
+margin:25px;
 
 }
 .container-fluid {
@@ -263,8 +265,13 @@ svg {
    }
    
   /*===== contact ====*/
+
+#contact{
+margin-top:5px;
+
+}
 .contact{
-    padding-top: 90px;
+    padding-top: 10px;
     background-color:  rgba(181, 187, 209, 0.34);
 }
 
