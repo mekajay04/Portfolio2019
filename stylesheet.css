@@ -9,7 +9,7 @@ p {
 .margin {margin-top: 45px;
 }
 .bg-1 { 
-  background: url("photos/bkg6.PNG");
+  background: url("photos/bkg6.png");
    background-repeat: no-repeat;
    min-height: 700px; 
   /* Create the parallax scrolling effect */
