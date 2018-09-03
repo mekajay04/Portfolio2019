@@ -9,14 +9,14 @@ p {
 .margin {margin-top: 45px;
 }
 .bg-1 { 
-  background: url("photos/bkg6.jpg");
-   background-repeat: no-repeat;
-   min-height: 850px; 
+background: url("photos/bkg6.jpg");
+background-repeat: no-repeat;
+min-height: 850px; 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-    z-index: 1;
-  color: #ffffff;
+background-attachment: fixed;
+background-position: center;
+z-index: 1;
+color: #ffffff;
 }
 .bg-2 { 
     /* background:url("photos/downloadedl.png"); */
